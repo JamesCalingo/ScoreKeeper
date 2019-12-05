@@ -1,78 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Score Keeper - 8 Players</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Score Keeper - 8 Players</title>
 </head>
+
 <body>
-<div class="jumbotron display-3">8 Player Score Keeper</div>
+  <div class="jumbotron display-3">8 Player Score Keeper</div>
 
-<div class="container">
-  <div id="scoreZone" class="row text-center justify-content-center mb-3">
+  <div class="container">
+    <div id="scoreZone" class="row text-center justify-content-center mb-3">
 
-    <div id="player1" class="col-12 col-md-3 mb-5"><b>Player 1</b><br>
-      <span id="p1Score" class="display-3"></span><br>
-      
-      <button id="p1ScoreDn" class="btn btn-danger">-</button>
-      <button id="p1ScoreUp" class="btn btn-success">+</button>
-    </div>
+      <div id="player1" class="col-12 col-md-3 mb-5"><b>Player 1</b><br>
+        <span id="p1Score" class="display-3"></span><br>
 
-    <div id="player2" class="col-12 col-md-3 mb-5"><b>Player 2</b><br>
-      <span id="p2Score" class="display-3"></span><br>
-    
-      <button id="p2ScoreDn" class="btn btn-danger">-</button>
-      <button id="p2ScoreUp" class="btn btn-success">+</button></div>
+        <button id="p1ScoreDn" class="btn btn-danger">-</button>
+        <button id="p1ScoreUp" class="btn btn-success">+</button>
+      </div>
 
-    <div id="player3" class="col-12 col-md-3 mb-5"><b>Player 3</b><br>
-      <span id="p3Score" class="display-3"></span><br>
-   
-      <button id="p3ScoreDn" class="btn btn-danger">-</button>
-      <button id="p3ScoreUp" class="btn btn-success">+</button>
-    </div>
+      <div id="player2" class="col-12 col-md-3 mb-5"><b>Player 2</b><br>
+        <span id="p2Score" class="display-3"></span><br>
 
-    <div id="player4" class="col-12 col-md-3 mb-5"><b>Player 4</b><br>
-      <span id="p4Score" class="display-3"></span><br>
-    
-      <button id="p4ScoreDn" class="btn btn-danger">-</button>
-      <button id="p4ScoreUp" class="btn btn-success">+</button></div>
+        <button id="p2ScoreDn" class="btn btn-danger">-</button>
+        <button id="p2ScoreUp" class="btn btn-success">+</button></div>
 
-    <div id="player5" class="col-12 col-md-3 mb-5"><b>Player 5</b><br>
-      <span id="p5Score" class="display-3"></span><br>
-   
-      <button id="p5ScoreDn" class="btn btn-danger">-</button>
-      <button id="p5ScoreUp" class="btn btn-success">+</button>
-    </div>
+      <div id="player3" class="col-12 col-md-3 mb-5"><b>Player 3</b><br>
+        <span id="p3Score" class="display-3"></span><br>
 
-    <div id="player6" class="col-12 col-md-3 mb-5"><b>Player 6</b><br>
-      <span id="p6Score" class="display-3"></span><br>
-      
-      <button id="p6ScoreDn" class="btn btn-danger">-</button>
-      <button id="p6ScoreUp" class="btn btn-success">+</button>
-    </div>
+        <button id="p3ScoreDn" class="btn btn-danger">-</button>
+        <button id="p3ScoreUp" class="btn btn-success">+</button>
+      </div>
 
-    <div id="player7" class="col-12 col-md-3 mb-5"><b>Player 7</b><br>
-      <span id="p7Score" class="display-3"></span><br>
-      
-      <button id="p7ScoreDn" class="btn btn-danger">-</button>
-      <button id="p7ScoreUp" class="btn btn-success">+</button>
-    </div>
+      <div id="player4" class="col-12 col-md-3 mb-5"><b>Player 4</b><br>
+        <span id="p4Score" class="display-3"></span><br>
+
+        <button id="p4ScoreDn" class="btn btn-danger">-</button>
+        <button id="p4ScoreUp" class="btn btn-success">+</button></div>
+
+      <div id="player5" class="col-12 col-md-3 mb-5"><b>Player 5</b><br>
+        <span id="p5Score" class="display-3"></span><br>
+
+        <button id="p5ScoreDn" class="btn btn-danger">-</button>
+        <button id="p5ScoreUp" class="btn btn-success">+</button>
+      </div>
+
+      <div id="player6" class="col-12 col-md-3 mb-5"><b>Player 6</b><br>
+        <span id="p6Score" class="display-3"></span><br>
+
+        <button id="p6ScoreDn" class="btn btn-danger">-</button>
+        <button id="p6ScoreUp" class="btn btn-success">+</button>
+      </div>
+
+      <div id="player7" class="col-12 col-md-3 mb-5"><b>Player 7</b><br>
+        <span id="p7Score" class="display-3"></span><br>
+
+        <button id="p7ScoreDn" class="btn btn-danger">-</button>
+        <button id="p7ScoreUp" class="btn btn-success">+</button>
+      </div>
 
       <div id="player8" class="col-12 col-md-3 mb-5"><b>Player 8</b><br>
         <span id="p8Score" class="display-3"></span><br>
-      
+
         <button id="p8ScoreDn" class="btn btn-danger">-</button>
         <button id="p8ScoreUp" class="btn btn-success">+</button>
       </div>
 
-  </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="assets/js/javascript.js"></script>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/javascript.js"></script>
 </body>
+
 </html>
