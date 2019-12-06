@@ -99,3 +99,27 @@ function updateScores(){
     p6--;
     updateScores()
   });
+
+  $("#p7ScoreUp").on("click", function (event){
+    event.preventDefault();
+    p7++;
+    updateScores()
+  });
+
+  $("#p7ScoreDn").on("click", function (event){
+    event.preventDefault();
+    p7--;
+    updateScores()
+  });
+
+  $("#p8ScoreUp").on("click", function (event){
+    event.preventDefault();
+    p8++;
+    updateScores()
+  });
+
+  $("#p8ScoreDn").on("click", function (event){
+    event.preventDefault();
+    p8--;
+    updateScores()
+  });
