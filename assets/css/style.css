@@ -12,10 +12,28 @@ body{
 
 #player1{
   color: red;
-  background: teal
 }
 
 #player2{
-  background: blue;
-  color: white
+  color: blue;
+}
+
+#player3{
+  color: green;
+}
+
+#player4{
+  color: orange;
+}
+
+#player5{
+  color: purple;
+}
+
+#player6{
+  color: brown
+}
+
+#player7{
+  color: gold
 }
