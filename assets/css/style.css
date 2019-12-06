@@ -9,3 +9,13 @@ body{
 #scoreZone{
   background:white
 }
+
+#player1{
+  color: red;
+  background: teal
+}
+
+#player2{
+  background: blue;
+  color: white
+}
