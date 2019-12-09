@@ -8,3 +8,8 @@ Originally, I was going to have just one page for six players (as I did in the p
 On the first page (index.html), you'll be asked how many players you're going to be keeping score for. Once you select a number (up to 8), You'll then be taken to the page for the number of players you chose.
 
 After that, it's somewhat self-explanatory: You have buttons to add or subtract points from different players, and pushing them adds or subtracts points from their individual total. 
+
+# The future
+Right now, the app works fine as is. However...I'm always looking for ways to improve things.
+
+In that regard, I'm working on a way to have player names be changed to give some level of customization, as well as a potential color changer (I tried to pick colors that would be different from each other for the individual players, but some games/players may choose other colors than the ones I have; for example, the first two players are red and blue, but if the players chose black and green, I'd have an option to switch to those colors.)
