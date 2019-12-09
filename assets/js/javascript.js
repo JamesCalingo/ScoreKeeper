@@ -14,6 +14,7 @@ let p7=0;
 let p8=0;
 
 $(".name1").html(p1.name)
+$(".name2").html(p2.name)
 
 $("#p1Score").html(p1.score);
 $("#p2Score").html(p2.score);
