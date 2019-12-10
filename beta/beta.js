@@ -8,3 +8,6 @@ let player2 = {
   score: 0
 };
 
+
+$(".name1").html(player1.name);
+$("#p1Score").html(player1.score);
