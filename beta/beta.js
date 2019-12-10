@@ -13,4 +13,14 @@ $(".name2").html(p2.name);
 $("#p2Score").html(p2.score)
 }
 
+$(".btn-primary").on("click", function(e){
+  e.preventDefault();
+  $(".name1").html(`<input class="form-control form-control-sm" id="newName" type="text" placeholder=""><button id="confirmChange" class="btn btn-sm btn-block">Confirm</button>`);
+  $(document).on("click", "#confirmChange", function(e){
+    e.preventDefault();
+    let newName = $("#newName").val().trim();
+    $(".name1").html(newName)
+  })
+})
+
 showData()
