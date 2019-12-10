@@ -1,13 +1,16 @@
-let player1 = {
-  name: "Player 1",
-  score: 0
-};
+function Player (name, score){
+  this.name = name,
+  this.score = score
+}
 
-let player2 = {
-  name: "Player 2",
-  score: 0
-};
+var p1 = new Player("Player 1", 0);
+var p2 = new Player("Player 2", 0);
 
+showData = () => {
+$(".name1").html(p1.name);
+$("#p1Score").html(p1.score);
+$(".name2").html(p2.name);
+$("#p2Score").html(p2.score)
+}
 
-$(".name1").html(player1.name);
-$("#p1Score").html(player1.score);
+showData()
