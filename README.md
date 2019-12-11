@@ -14,6 +14,6 @@ Be aware that this app does have the ability to go into the negatives; I wasn't 
 # The future
 Right now, the app works fine as is. However...I'm always looking for ways to improve things.
 
-In that regard, I'm working on a way to have player names be changed to give some level of customization, as well as a potential color changer (I tried to pick colors that would be different from each other for the individual players, but some games/players may choose other colors than the ones I have; for example, the first two players are red and blue, but if the players chose black and green, I'd have an option to switch to those colors.)
+In that regard, I'm working on a way to have player names be changed to give some level of customization, as well as a potential color changer (I tried to pick colors that would be different from each other for the individual players, but some games/players may choose other colors than the ones I have; for example, the first two players are red and blue, but if the players chose black and green, I'd have an option to switch to those colors.).
 
 I may also see if I can figure out a way to make using the app as a life counter easier as well (and before you ask, yes, there are games that have a life counter and more than two players; for example, the Realms series of deckbuilders).
