@@ -29,6 +29,7 @@ $(document).on("click", "#confirmChange1", function(e){
     return false
   }
   else{
+    p1.name = newName
   $(".name1").html(newName);
   $(".btn-primary").removeClass("disabled").addClass("nameChange")
   }
@@ -50,9 +51,34 @@ $(document).on("click", "#confirmChange2", function(e){
     return false
   }
   else{
+    p2.name = newName
   $(".name2").html(newName);
   $(".btn-primary").removeClass("disabled").addClass("nameChange")
   }
 })
 
-showData()
+showData();
+
+$("#p1ScoreUp").on("click", function (event){
+  event.preventDefault();
+  p1.score++;
+  showData();
+});
+
+$("#p1ScoreDn").on("click", function (event){
+  event.preventDefault();
+  p1.score--;
+  showData()
+});
+
+$("#p2ScoreUp").on("click", function (event){
+  event.preventDefault();
+  p2.score++;
+  showData()
+});
+
+$("#p2ScoreDn").on("click", function (event){
+  event.preventDefault();
+  p2--;
+  showData()
+});
