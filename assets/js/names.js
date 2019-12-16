@@ -16,6 +16,22 @@ $(".name6").html(player6)
 $(".name7").html(player7)
 $(".name8").html(player8)
 
-$(".btn-primary").on("click", function(){
-  alert("You clicked the name change button!")
+$("#change1").on("click", function(){
+  $(".name1").html(`<input class="form-control form-control-sm" id="newName" type="text" placeholder=""><button id="confirmChange1" class="btn btn-sm btn-dark btn-block">Confirm</button>`);
+  $("change1").addClass("disabled")
+  
+})
+
+$(document).on("click", "#confirmChange1", function(e){
+  e.preventDefault();
+  let newName = $("#newName").val().trim();
+  if (!newName){
+    alert("What's your name?")
+    return false
+  }
+  else{
+    p1.name = newName
+  $(".name1").html(newName);
+  $(".btn-primary").removeClass("disabled")
+  }
 })
