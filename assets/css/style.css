@@ -14,6 +14,10 @@ body{
   font-size: 18pt
 }
 
+#lifeTracker-link{
+font-size: 24pt
+}
+
 #player1{
   color: red;
 }
