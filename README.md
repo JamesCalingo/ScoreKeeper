@@ -17,3 +17,9 @@ Right now, the app works fine as is. However...I'm always looking for ways to im
 For example, I hope to add the ability to change player colors soon. I tried to pick colors that would be different from each other for the individual players, but some games/players may choose other colors than the ones I have; for example, the first two players are red and blue, but if the players chose black and green, I'd have an option to switch to those colors.
 
 Also, if you look at the files, things are...a bit messy. One of my priorities is optimizing the JavaScript end of the app, so you won't see any changes, but it will be much nicer on that end.
+
+# Technology Used
+- HTML
+- CSS
+- JavaScript
+- JQuery
