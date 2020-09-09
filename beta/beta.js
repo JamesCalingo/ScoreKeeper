@@ -3,17 +3,23 @@ function Player (name, score){
   this.score = score
 }
 
-var p1 = new Player("Player 1", 0);
-var p2 = new Player("Player 2", 0);
+let p1 = new Player("Player 1", 0);
+let p2 = new Player("Player 2", 0);
+let p3 = new Player("Player 3", 0);
+let p4 = new Player("Player 4", 0);
+let p5 = new Player("Player 5", 0);
+let p6 = new Player("Player 6", 0);
+let p7 = new Player("Player 7", 0);
+let p8 = new Player("Player 8", 0);
 
 showData = () => {
-$(".name1").html(p1.name);
-$("#p1Score").html(p1.score);
+$(".name").html(this.name);
+$(".score").html(this.score);
 $(".name2").html(p2.name);
 $("#p2Score").html(p2.score)
 }
 
-$("#nameChange1").on("click", function(e){
+$(".nameChange").on("click", function(e){
   e.preventDefault();
   
   $(".name1").html(`<input class="form-control form-control-sm" id="newName" type="text" placeholder=""><button id="confirmChange1" class="btn btn-sm btn-block">Confirm</button>`);
@@ -21,7 +27,7 @@ $("#nameChange1").on("click", function(e){
   
 })
 
-$(document).on("click", "#confirmChange1", function(e){
+$(document).on("click", ".confirmChange", function(e){
   e.preventDefault();
   let newName = $("#newName").val().trim();
   if (!newName){
